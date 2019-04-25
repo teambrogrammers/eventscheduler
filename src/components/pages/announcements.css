@@ -1,0 +1,13 @@
+.announcementHeader {
+  padding: 10px 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: white;
+}
+
+.createIconPlacement {
+  margin-right: 0px;
+  margin-top: 15px;
+}

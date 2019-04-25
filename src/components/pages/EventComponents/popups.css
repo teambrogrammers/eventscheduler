@@ -1,0 +1,207 @@
+.pUp {
+  width: 500px !important;
+  height: fit-content;
+}
+
+.teamPUp {
+  width: fit-content !important;
+  height: fit-content;
+}
+
+.testInput {
+  background-color: blue;
+}
+
+.centerPopupTitle {
+  text-align: center;
+}
+
+.teamContainer {
+  max-width: 1000px;
+  display: flex;
+}
+
+.teamContainer > div {
+  flex: 1;
+}
+
+.teamAdd {
+  float: right;
+}
+
+.teamTableLeft {
+  height: 400px !important;
+  width: 300px !important;
+}
+
+.teamTableRight {
+  height: 400px !important;
+  width: 600px !important;
+}
+
+.teamLeft {
+  width: auto;
+  margin-left: 2.5%;
+  margin-right: auto;
+}
+
+.teamRight {
+  width: auto;
+  margin-left: auto;
+  margin-right: 2.5%;
+}
+
+.teamTitle {
+  float: left;
+  margin-bottom: 5%;
+}
+.teamMemTitle {
+  float: left;
+  margin-bottom: 3%;
+}
+
+.teamDelete {
+  margin-right: 10%;
+}
+
+.inlineTable {
+  display: inline-block;
+}
+
+.teamPopUp {
+  width: 1000px !important;
+  height: fit-content;
+}
+
+.pUpAnn {
+  width: 300px !important;
+  height: fit-content;
+}
+
+.deleteTeamConfirm {
+  width: fit-content !important;
+  height: fit-content;
+}
+
+.teamConfirmPup {
+  background: black;
+  border: none;
+  color: white;
+  font-size: 14px;
+  height: 13%;
+  width: 15%;
+  margin-right: 5%;
+  border-radius: 5px;
+  padding: 2px;
+  margin-bottom: 2%;
+}
+
+.teamConfirmPupText {
+  font-size: 14px;
+}
+.teamTitle {
+  margin-left: 10%;
+}
+.pUpForm {
+  width: 460px;
+  margin-left: 20px;
+}
+
+.createTeamForm {
+  width: 350px;
+  height: 400px;
+}
+.annForm {
+  width: 200px;
+  float: center;
+  margin-left: 40px;
+  color: rgb(75, 78, 80);
+}
+
+.pUpForm::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns that sits next to each other */
+.leftCol,
+.rightCol {
+  float: left !important;
+}
+
+.leftCol {
+  margin-left: 10px;
+}
+
+.rightCol {
+  margin-left: 30px;
+}
+
+.pUpTitle {
+  text-align: center;
+}
+
+.editA {
+  font-size: 25px;
+}
+
+.pUpBtns {
+  margin-top: 10px;
+  margin-left: 100px;
+  float: right;
+}
+
+.annpUpBtns {
+  margin-top: 10px;
+  margin-left: 120px;
+  float: left;
+}
+
+.SC {
+  width: 40px;
+  float: right;
+}
+
+.scTeam {
+  margin-right: 25px;
+}
+
+.scSession {
+  margin-right: 18px;
+}
+
+.SA {
+  width: 40px;
+}
+
+[class*="close-"] {
+  color: black;
+  font: 18px/100% arial, sans-serif;
+  position: absolute;
+  right: 10px;
+  text-decoration: bold;
+  text-shadow: 0 1px 0 #fff;
+  top: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.close-classic:after {
+  content: "X"; /* ANSI X letter */
+}
+
+.pupDiv {
+  width: 50px;
+  height: 50px;
+}
+
+.announceDiv {
+  height: fit-content;
+  width: fit-content;
+}
+
+.createTeamTable {
+  margin-left: 0px;
+  height: 350px !important;
+}

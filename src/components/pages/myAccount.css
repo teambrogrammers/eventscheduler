@@ -1,0 +1,35 @@
+.acctForm,
+.acctInput {
+  width: 470px;
+  height: 30px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.acctTitle {
+  text-align: center;
+  margin-top: 0px;
+  padding-left: 10px;
+  font-size: 30px;
+  color: rgb(75, 78, 80);
+  border-bottom: 3px solid #008f48;
+}
+
+.acctFormDiv {
+  display: inline-block;
+  text-align: left;
+  height: 450px;
+  width: 500px;
+
+  margin-top: 80px;
+}
+
+.save {
+  width: 30px;
+  float: right;
+  margin-right: 10px;
+}
+
+.leftColMyAcct {
+  margin-left: 10px;
+}

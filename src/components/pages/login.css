@@ -1,0 +1,62 @@
+input,
+form {
+  width: 200px;
+  height: 30px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 8px;
+  border: 1px solid black;
+  background: white;
+  /* margin-right: 25px; */
+}
+
+form {
+  padding-top: 40px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.loginFormDiv {
+  display: inline-block;
+  text-align: left;
+  height: 375px;
+  width: 475px;
+  background: #008f48;
+  margin-top: 50px;
+}
+
+/* .TopBar {
+  background: #008f48;
+  margin-top: 0px;
+  height: 150px;
+} */
+
+.signIn {
+  text-align: center;
+  padding-left: 10px;
+  font-size: 40px;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+}
+.newAcct {
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.Welcome {
+  height: 100px;
+  color: rgb(75, 78, 80);
+  font-family: "Trocchi", serif;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 48px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}

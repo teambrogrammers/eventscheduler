@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: rgb(75, 78, 80);
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.upcomingTable {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.upcomingTableDate {
+  padding-left: 15px;
+}
+
+.PrimaryBtn {
+  background-color: #008f48;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px 5px 5px 5px;
+  margin-left: 0px;
+  padding: 5px 15px 5px 15px;
+}
+
+.leftContent {
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  left: 220px;
+  width: 34%;
+  height: 600px;
+  padding: 20px 20px 20px 20px;
+}
+
+.leftContentHome {
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  left: 220px;
+  width: 30%;
+  height: 600px;
+  padding: 0px 20px 20px 20px;
+}
+
+/* .articleLeft{
+  position: absolute; 
+  text-align:left;
+  top: 80px;
+  left:220px;
+  padding: 20px;
+} */
+
+.column {
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  height: 600px; /* Set Height maually */
+}
+.inputError {
+  border: 1px solid red;
+}
+
+.leftBlock,
+.rightBlock {
+  text-align: center;
+  width: 48%;
+  background-color: white;
+  overflow: auto;
+}
+
+.rightBlock {
+  margin-right: 0.5%; /* Overrides the right margin so that it is the same as the far left */
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.calendar {
+  padding-top: 20px;
+}
+
+.homepageTitle {
+  font-size: 25px;
+  border-bottom: 4px solid #008f48;
+  display: inline-block;
+  line-height: 1.4;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.recentAnn,
+.myUPTitle {
+  margin-bottom: 5px;
+}
+
+.annListTitle {
+  margin-bottom: 0px;
+}
+
+.eventDetailsTitle {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.sessionsTitle {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* This is what stacks the columns */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.activeLink {
+  color: #000000;
+  padding: 10px;
+  border-bottom: 4px solid #008f48;
+}
+
+/* When we decide the widht of the table we will change this max-width
+So that when we resize the window it will not be smaller than the table 
+before they start to stack */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+  .leftContent {
+    width: 100%;
+  }
+}
