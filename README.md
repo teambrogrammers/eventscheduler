@@ -6,9 +6,9 @@ Node.js must be installed.<br>
 
 note: you may need to install react as well. Open a terminal and run the following:
 
-### `npm install react --save'
+### `npm install react --save`
 
-### `npm install react-dom --save
+### `npm install react-dom --save`
 
 In the project directory, open a terminal and run:
 
